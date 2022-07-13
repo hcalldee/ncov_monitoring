@@ -1,0 +1,177 @@
+.h6 {
+    color: #1cc88a;
+    font-weight: bold;
+  }
+
+  #preview {
+    background-color: #1cc88a;
+  }
+
+  .container-fluid {
+    min-height: 77%;
+  }
+
+  
+  /* css data table */
+  .pagination .active .page-link {
+    background-color: #7f60fb !important;
+    border-color: #7f60fb !important;
+    color: white !important;
+}
+
+
+/* css sidebar */
+.navbar-nav .active a{
+  background-color: #8e75f5 !important;
+}
+
+.sidebar .nav-link:hover{
+  background-color: #6a55bf !important;
+  transition: 0.3s;
+}
+
+.navbar-nav .active .collapse-item{
+  background-color: white !important;
+}
+
+.navbar-nav .active .active{
+  background-color:rgb(243, 243, 243) !important;
+  color: #1cc88a !important;
+}
+
+.navbar-nav .active .collapse-item:hover{
+  background-color: rgb(243, 243, 243) !important;
+}
+
+
+/* css nav tab */
+.nav-tabs .active span{
+  color: #1cc88a !important;
+}
+
+.nav-tabs span{
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-tabs .nav-link {
+  transition: 0.3s;
+}
+
+#nav-tab{
+  margin-left: 10px;
+}
+
+/* css kalender */
+.calendar td{
+  color:#7d6bc4;
+}
+
+.day.has-event{
+  font-weight: bold;
+  font-size: 20px;
+  color: #1cc88a;
+}
+
+.calendar .month, .calendar .year{
+  color:#1cc88a;
+}
+
+.event-container{
+  background-color: #fff !important;
+}
+
+.event-wrapper .event{
+  background-color: #1cc88a !important;
+}
+
+.filler{
+  background-color: #7f6dc7 !important;
+}
+
+.day.today{
+  background-color: #1cc88a !important;
+}
+
+/*css3 design scrollbar sidebar*/
+.event-wrapper::-webkit-scrollbar {
+  width: 7px;
+}
+
+.event-wrapper::-webkit-scrollbar-track {      
+  background: #dbdbdb;    
+}
+
+.event-wrapper::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+  border-radius: 7px;
+}
+
+
+.form-control:disabled, .form-control:read-only{
+  background-color: transparent !important;
+}
+
+
+
+
+/* foto profil */
+.img-circle2 {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  object-fit: cover;
+  height: 192px;
+  width: 192px;
+}
+  
+/* #accordionSidebar{ 
+  background-color:rgb(47, 165, 101) !important;
+} */
+
+  /* animasi drop down nav */
+  @media (min-width: 992px) {
+    .animate {
+      animation-duration: 0.3s;
+      -webkit-animation-duration: 0.3s;
+      animation-fill-mode: both;
+      -webkit-animation-fill-mode: both;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+  }
+
+    /*akhir animasi drop down nav */
